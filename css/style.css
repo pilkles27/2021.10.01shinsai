@@ -66,6 +66,7 @@
   border-bottom: solid 1px rgba(0, 0, 0, 0.3);
   font-size: 20px;
   line-height: 60px;
+  white-space: nowrap;
 }
 .news21 {
   color: rgba(0, 0, 0, 0.5);
@@ -73,6 +74,7 @@
   font-size: 20px;
   line-height: 60px;
   padding-top: 40px;
+  white-space: nowrap;
 }
 .solid {
   border-bottom: solid  rgba(0, 0, 0, 0.3);
@@ -154,7 +156,7 @@
 }
 .flot1 {
   background: #C71585;
-  width: 39%;
+  width: 35%;
   text-align: center;
   padding: 60px 0;
 }
@@ -162,19 +164,20 @@
   display: flex;
   justify-content: center;
   padding-bottom: 90px;
-  margin-left: 20%;
+  margin-left: 6%;
+}
+.flex {
+  width: 35%;
 }
 .flot2 {
   display: flex;
   background: #DA70D6;
-  width: 55%;
   text-align: center;
   padding: 30px 0;
 }
 .flot3 {
   display: flex;
   background: #D8BFD8;
-  width: 55%;
   text-align: center;
   padding: 30px 0;
 }
@@ -311,7 +314,7 @@ table th {
 .recruit {
   position: relative;
   background: url(../img/recruit.png) no-repeat center/cover;
-  height: 50vh;
+  height: 40vh;
   width: 50%;
   float: left;
 }
@@ -326,7 +329,7 @@ table th {
 .interview {
   position: relative;
   background: url(../img/interview.png) no-repeat center/cover;
-  height: 50vh;
+  height: 40vh;
   width: 50%;
   float: left;
   margin-bottom: 70px;
